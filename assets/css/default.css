@@ -1,0 +1,65 @@
+h1 {
+  text-transform: uppercase;
+  font-family: courier;
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+h2{
+  font-family: brushscriptmt;
+  margin: 0;
+  text-align: center;
+  font-size: 90px;
+}
+
+.im-body {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.im-container {
+  width: 100%;
+  height: 30px;
+  padding: 0px;
+  margin: 0;
+transform: ;
+}
+
+.im-title {
+  float: left;
+}
+
+.im-title--left h1 {
+  text-align: left;
+}
+
+.im-box{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  animation: side-to-side 10s infinite;
+}
+
+.anim1{
+  animation: side-to-side 10s infinite 1s;
+}
+
+.anim2{
+  animation: side-to-side 10s infinite 5s;
+}
+
+@keyframes side-to-side{
+0% {
+  margin-left: 0;
+}
+
+50% {
+  margin-left: 50%;
+}
+
+100% {
+  margin-left: 0;
+}
+}
